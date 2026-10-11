@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Contains hooks for the Palindrome Checker module.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function palindrome_checker_help($route_name, $route_match) {
+  switch ($route_name) {
+    case 'help.page.palindrome_checker':
+      return '<p>' . t('The Palindrome Checker module allows users to enter a word or phrase and check whether it reads the same forwards and backwards.') . '</p>';
+  }
+}

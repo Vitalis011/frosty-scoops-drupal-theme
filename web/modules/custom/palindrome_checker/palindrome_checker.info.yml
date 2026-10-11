@@ -1,0 +1,5 @@
+name: Palindrome Checker
+type: module
+description: 'A simple Drupal 11 module that checks whether a word or phrase is a palindrome.'
+package: Custom
+core_version_requirement: ^11

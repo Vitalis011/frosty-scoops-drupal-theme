@@ -1,0 +1,7 @@
+palindrome_checker.form:
+  path: '/palindrome-checker'
+  defaults:
+    _form: '\Drupal\palindrome_checker\Form\PalindromeCheckerForm'
+    _title: 'Palindrome Checker'
+  requirements:
+    _permission: 'access content'
