@@ -1,0 +1,14 @@
+name: Frosty Scoops
+type: theme
+description: 'A simple custom ice cream theme built for Drupal 11.'
+core_version_requirement: ^11
+base theme: false
+
+libraries:
+  - frosty_scoops/global
+
+regions:
+  header: Header
+  primary_menu: Primary menu
+  content: Content
+  footer: Footer
